@@ -70,6 +70,7 @@ class Number:
                 result = self.second_number + self.first_number
                 print(result)
             logging.info('Limited calculating has been ended corrected')
+            logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
 
         except ValueError:
             logging.error('Value error has been happened')
@@ -85,6 +86,7 @@ class Number:
             print(f"Random has choosed {self.second_number} As second number")
             print(result)
             logging.info('Random calculating has been ended corrected')
+            logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
         
         except ValueError:
             logging.error('Value error has been happened')
@@ -104,6 +106,7 @@ class Number:
                 else:
                     print(result)
             logging.info('Alternative calculating has been ended corrected')
+            logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
 
         except ValueError:
             logging.error('Value error has been happened')         
@@ -124,6 +127,7 @@ class Number:
                 text.pack()
                 root.mainloop()
                 logging.info('Functional calculating has been ended corrected')
+                logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
 
             elif result == 1:
                 from platform import platform, machine, processor, version
@@ -132,6 +136,7 @@ class Number:
                 print(processor())
                 print(version())
                 logging.info('Functional calculating has been ended corrected')
+                logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
 
         except ValueError:
             logging.error('Value error has been happened')
@@ -147,6 +152,7 @@ class Number:
             result = self.first_number + self.second_number
             print(result)
             logging.info('Uncorrect calculating has been ended corrected')
+            logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
         except ValueError:
             logging.error('Value error has been happened')
 
@@ -160,4 +166,4 @@ class Number:
 nums = Number(None, None)
 
 nums.chooser()
-
+input()

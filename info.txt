@@ -1,3 +1,7 @@
+MANUAL
+---------------------------------------------------------------------------------
+SUC - Stupid Useless Calculator with open source! Funny and safety (almost) thing!
+---------------------------------------------------------------------------------
 1. Limited calculating is special calculating form where two-digit numbers are not allowed. You can use them, but
 answer will be different 
 
