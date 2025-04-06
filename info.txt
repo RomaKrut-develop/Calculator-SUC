@@ -1,0 +1,11 @@
+1. Limited calculating is special calculating form where two-digit numbers are not allowed. You can use them, but
+answer will be different 
+
+2. Random calculating is automatic calculating form where numbers are choosing from -99999 to 99999
+
+3. Alternative calculating is calculating form where if sum of numbers equals zero, it's going be addited on first
+number and then minused by random number
+
+4. Functional calculating is calculating form where numbers can activate special function
+
+5. Uncorrect calculating is just uncorrect calculating
