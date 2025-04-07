@@ -13,3 +13,5 @@ number and then minused by random number
 4. Functional calculating is calculating form where numbers can activate special function
 
 5. Uncorrect calculating is just uncorrect calculating
+
+6 Graph calculating giving advance to create graph by eneterd numbers and result
