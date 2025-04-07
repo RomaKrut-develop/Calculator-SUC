@@ -86,7 +86,7 @@ class Number:
             print(f"Random has choosed {self.second_number} As second number")
             print(result)
             logging.info('Random calculating has been ended corrected')
-            logging.info(f'User entres {self.first_number} + {self.second_number}. Answer: {result}')
+            logging.info(f'Randomizer enters {self.first_number} + {self.second_number}. Answer: {result}')
         
         except ValueError:
             logging.error('Value error has been happened')
